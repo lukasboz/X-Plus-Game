@@ -1,0 +1,9 @@
+
+@SuppressWarnings("serial")
+public class DictionaryException extends RuntimeException 
+{
+	public DictionaryException()
+	{
+		super ("Dictionary Error");
+	}
+}
